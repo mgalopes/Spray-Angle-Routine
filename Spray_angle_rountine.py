@@ -7,14 +7,14 @@ Created on Mon Nov 28 10:36:14 2022
 import cv2
 import math
 
-path = 'Image.6tla7g5f.000024.tif'
+path = '/home/mglopes/Documents/UHPDI/frente/Test1/inferior_1_72/Img000751.tif'
 img = cv2.imread(path)
 pointsList = []
 
 # convert the input image to grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # apply thresholding to convert grayscale to binary image
-ret,thresh = cv2.threshold(gray,3.85,255,cv2.THRESH_BINARY)
+ret,thresh = cv2.threshold(gray,6,255,cv2.THRESH_BINARY)
 
 imgRGB = cv2.cvtColor(thresh, cv2.COLOR_BGR2RGB)
  

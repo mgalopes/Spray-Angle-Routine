@@ -7,7 +7,7 @@ Created on Mon Nov 28 10:36:14 2022
 import cv2
 import math
 
-path = 'spray_02466_pos1_30bar.jpg'
+path = '/home/mglopes/Documents/GitHub/Spray-Angle-Routine/Spray angle/UHPDI/subtracted_images/subtracted_image3.png'
 img = cv2.imread(path)
 pointsList = []
  
