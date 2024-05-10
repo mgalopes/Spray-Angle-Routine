@@ -7,7 +7,7 @@ Created on Mon Nov 28 10:36:14 2022
 import cv2
 import math
 
-path = 'Mean_0004.png'
+path = 'gasolina_conv_40C_50bar_binary.png'
 img = cv2.imread(path)
 pointsList = []
 
@@ -35,8 +35,8 @@ def getAngle(pointsList):
     m2 = gradient(pt1,pt3)
     angR = math.atan((m2-m1)/(1+(m2*m1)))
     angD = round(math.degrees(angR),3)
-    cv2.putText(imgRGB,str(angD),(pt1[0]-40,pt1[1]-20),cv2.FONT_HERSHEY_COMPLEX,
-                1.5,(0,0,255),2)
+    cv2.putText(imgRGB,str(angD),(pt1[0]-0,pt1[1]+100),cv2.FONT_HERSHEY_COMPLEX,
+                1.0,(0,0,255),2)
  
  
 while True:
