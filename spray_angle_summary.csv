@@ -1,0 +1,25 @@
+Fuel,Nozzle,Temperature,Pressure,Mean Angle (deg),Deviation
+Ethanol,Convergent,25 °C,50bar,10.02,1.2
+Ethanol,Convergent,25 °C,60bar,11.64,1.84
+Ethanol,Convergent,25 °C,70bar,12.12,1.0
+Ethanol,Convergent,40 °C,50bar,10.9,0.88
+Ethanol,Convergent,40 °C,60bar,11.22,1.17
+Ethanol,Convergent,40 °C,70bar,11.04,1.24
+Ethanol,Divergent,25 °C,50bar,6.11,0.6
+Ethanol,Divergent,25 °C,60bar,6.58,0.48
+Ethanol,Divergent,25 °C,70bar,7.63,0.59
+Ethanol,Divergent,40 °C,50bar,6.15,0.54
+Ethanol,Divergent,40 °C,60bar,6.9,0.61
+Ethanol,Divergent,40 °C,70bar,6.86,0.63
+Gasoline,Convergent,25 °C,50bar,11.24,0.73
+Gasoline,Convergent,25 °C,60bar,11.48,0.98
+Gasoline,Convergent,25 °C,70bar,9.27,0.75
+Gasoline,Convergent,40 °C,50bar,15.13,1.46
+Gasoline,Convergent,40 °C,60bar,13.34,1.46
+Gasoline,Convergent,40 °C,70bar,8.63,0.91
+Gasoline,Divergent,25 °C,50bar,6.68,0.62
+Gasoline,Divergent,25 °C,60bar,8.12,1.37
+Gasoline,Divergent,25 °C,70bar,8.0,0.79
+Gasoline,Divergent,40 °C,50bar,6.23,0.76
+Gasoline,Divergent,40 °C,60bar,7.27,0.6
+Gasoline,Divergent,40 °C,70bar,7.47,0.57

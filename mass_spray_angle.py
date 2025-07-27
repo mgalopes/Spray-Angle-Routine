@@ -5,8 +5,8 @@ import os
 import csv
 
 # ==== USER CONFIGURATION ====
-FOLDER_PATH = '/home/mlopes/Documents/Test1/output_images/grayscale/etanol_conv_40C_50bar/'      # Folder with input images
-HEIGHT_PIXEL = 300                 # Row height (in pixels) to measure spray angle
+FOLDER_PATH = '/home/mlopes/Documents/Test1/output_images/grayscale/gasolina_conv_40C_70bar/'      # Folder with input images
+HEIGHT_PIXEL = 600                 # Row height (in pixels) to measure spray angle
 THRESHOLD_VALUE = 10               # Pixel intensity threshold for binarization
 # Automatically build CSV filename from the last folder name
 folder_name = os.path.basename(os.path.normpath(FOLDER_PATH))
