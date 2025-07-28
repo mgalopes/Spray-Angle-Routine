@@ -117,20 +117,20 @@ for nozzle_type in ['Convergent', 'Divergent']:
             )
 
     ax.set_xticks([0, 1, 2])
-    ax.set_xticklabels(['50', '60', '70'], fontweight='bold', fontsize=12)
+    ax.set_xticklabels(['50', '60', '70'], fontsize=12)
     ax.set_yticks(Y_TICKS)
     ax.set_ylim(Y_LIMS)
     ax.set_xlabel('Pressure [bar]', fontweight='bold', fontsize=13)
     ax.set_ylabel('Angle [°]', fontweight='bold', fontsize=13)
     ax.set_title(f'Angle × Pressure – {nozzle_type} Nozzle', fontweight='bold', fontsize=14)
-    ax.tick_params(axis='y', labelsize=11, labelcolor='black', width=1.5)
-    ax.tick_params(axis='x', labelsize=11, labelcolor='black', width=1.5)
+    ax.tick_params(axis='y', labelsize=13, labelcolor='black', width=1.5)
+    ax.tick_params(axis='x', labelsize=13, labelcolor='black', width=1.5)
     ax.grid(True, axis='y', linestyle='--')
 
     legend = ax.legend(
         title='Fuel and Gas Phase Temperature',
-        title_fontproperties={'weight': 'bold', 'size': 11},
-        fontsize=10
+        title_fontproperties={'weight': 'bold', 'size': 13},
+        fontsize=13
     )
 
     fig.tight_layout()
